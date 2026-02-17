@@ -1,0 +1,21 @@
+# 🚀 FastAPI + React Product Manager
+
+Full-stack product management system.
+
+## 🧱 Tech Stack
+
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+- React
+- DBeaver
+
+---
+
+## ▶️ Backend
+
+```bash
+cd backend
+uvicorn backend.main:app --reload
+
+#how to run: in one cmd suppose in pycharm 'apple@apples-MacBook-Air frontend % npm start' and another cmd '(venv) apple@apples-MacBook-Air pythonProject1 % uvicorn Dataengineer.FASTAPI.backend.main:app --reload'
