@@ -1,0 +1,16 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("../data/customer_data.csv")
+df.head()
+
+df.describe()
+
+sns.countplot(x="purchased", data=df)
+plt.title("Target Distribution")
+plt.show()
+
+sns.heatmap(df.corr(numeric_only=True), annot=True, cmap="coolwarm")
+plt.title("Correlation Heatmap")
+plt.show()
